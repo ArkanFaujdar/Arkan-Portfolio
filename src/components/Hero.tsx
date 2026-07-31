@@ -196,8 +196,8 @@ export default function Hero() {
               variants={itemVariants}
               className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-zinc-400 max-w-xl leading-relaxed font-normal"
             >
-              Full-stack engineer crafting high-throughput web systems, silky
-              micro-interactions, and colorful matte software interfaces.
+              Designing performant applications with clean architecture,
+              seamless user experiences, and reliable backend systems.
             </motion.p>
 
             {/* CTAs & Social Icons */}
