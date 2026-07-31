@@ -123,7 +123,7 @@ const cardContainerVariants = {
     transition: {
       duration: 0.4,
       delay: i * 0.12,
-      ease: [0.25, 0.4, 0.25, 1],
+      ease: [0.25, 0.4, 0.25, 1] as [number, number, number, number],
       staggerChildren: 0.05,
       delayChildren: i * 0.12 + 0.1,
     },
@@ -166,7 +166,7 @@ export default function Skills() {
               whileInView="visible"
               whileHover={{ y: -6 }}
               viewport={{ once: true, margin: "-50px" }}
-              variants={cardContainerVariants || 0}
+              variants={cardContainerVariants}
               className={`group relative rounded-2xl bg-white dark:bg-[#14161c] border border-slate-200 dark:border-[#232730] ${theme.cardBorderHover} shadow-sm hover:shadow-xl ${theme.glow} transition-all duration-300 overflow-hidden flex flex-col justify-between`}
             >
               {/* Top Color Accent Line */}
