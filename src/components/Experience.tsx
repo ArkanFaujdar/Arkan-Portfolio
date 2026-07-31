@@ -132,7 +132,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="max-w-5xl mx-auto px-6 py-5 sm:py-12 border-t border-slate-200 dark:border-[#232730] scroll-mt-16"
+      className="max-w-5xl mx-auto px-6 py-10 sm:py-12 border-t border-slate-200 dark:border-[#232730] scroll-mt-16"
     >
       {/* Header */}
       <div className="mb-14 space-y-2">

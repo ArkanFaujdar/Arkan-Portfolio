@@ -143,7 +143,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="max-w-5xl mx-auto px-6 py-5 sm:py-12 border-t border-slate-200 dark:border-[#232730] scroll-mt-16"
+      className="max-w-5xl mx-auto px-6 py-10 sm:py-12 border-t border-slate-200 dark:border-[#232730] scroll-mt-16"
     >
       {/* Header */}
       <div className="mb-10 space-y-2">
